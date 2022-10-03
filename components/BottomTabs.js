@@ -8,7 +8,7 @@ const BottomTabs = () => {
       <View style={styles.container}>
         <TouchableOpacity style={styles.navLink}>
           <MaterialIcons name='storefront' size={24} color='black' />
-          <Text style={styles.navLinkText}>Home</Text>
+          <Text style={styles.navLinkText}>Shop</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navLink}>
           <View style={styles.badge}>
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     position: 'fixed',
     width: '100%',
     bottom: 0,
-    backgroundColor: '',
+    backgroundColor: '#ffffff',
     zIndex: 999
   }
 })
