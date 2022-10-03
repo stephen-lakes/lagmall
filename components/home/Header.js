@@ -50,10 +50,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
+    position: 'fixed',
+    backgroundColor: '#ffffff',
+    top: 0,
+    width: '100%',
+    zIndex: 999
   },
   logo: {
     width: 150,
     height: 50,
     resizeMode: 'contain'
   }
+  
 })
