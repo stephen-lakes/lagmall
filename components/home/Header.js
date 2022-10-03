@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <View style={styles.container}>
       <TouchableOpacity>
-        <Octicons name='three-bars' size={24} color='#333333' />
+        <Octicons name='three-bars' size={20} color='#333333' style={{ paddingHorizontal: 10 }} />
       </TouchableOpacity>
       <TouchableOpacity>
         <Image
@@ -15,13 +15,13 @@ const Header = () => {
         />
       </TouchableOpacity>
       <TouchableOpacity>
-        <Ionicons name='md-search-outline' size={24} color='#333333' />
+        <Ionicons name='md-search-outline' size={20} color='#333333' />
       </TouchableOpacity>
       <TouchableOpacity>
         <View style={styles.badge}>
           <Text style={styles.badgeText}>0</Text>
         </View>
-        <SimpleLineIcons name='bag' size={24} color='#333333' />
+        <SimpleLineIcons name='bag' size={20} color='#333333' />
       </TouchableOpacity>
     </View>
   )
@@ -33,10 +33,10 @@ const styles = StyleSheet.create({
   badge: {
     backgroundColor: '#ff3250',
     position: 'absolute',
-    left: 15,
-    bottom: 12,
-    width: 20,
-    height: 20,
+    left: 13,
+    bottom: 10,
+    width: 17,
+    height: 17,
     borderRadius: 20,
     alignItems: 'center',
     justifyContent: 'center',
