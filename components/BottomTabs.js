@@ -8,22 +8,22 @@ const BottomTabs = () => {
       <View style={styles.container}>
         <TouchableOpacity style={styles.navLink}>
           <MaterialIcons name='storefront' size={24} color='black' />
-          <Text>Home</Text>
+          <Text style={styles.navLinkText}>Home</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.navLink}>
-        <View style={styles.badge}>
-          <Text style={styles.badgeText}>0</Text>
-        </View>
-        <SimpleLineIcons name='bag' size={24} color='#333333' />
-        <Text>Cart</Text>
+          <View style={styles.badge}>
+            <Text style={styles.badgeText}>0</Text>
+          </View>
+          <SimpleLineIcons name='bag' size={24} color='#333333' />
+          <Text style={styles.navLinkText}>Cart</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.navLink}>
         <Feather name='heart' size={24} color='black' />
-        <Text>WishList</Text>
+        <Text style={styles.navLinkText}>WishList</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.navLink}>
         <Feather name='user' size={24} color='black' />
-        <Text>My account</Text>
+        <Text style={styles.navLinkText}>My account</Text>
       </TouchableOpacity>
       </View>
     </View>
@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
   badge: {
     backgroundColor: '#ff3250',
     position: 'absolute',
-    left: 13,
-    bottom: 10,
+    left: 15,
+    bottom: 30,
     width: 17,
     height: 17,
     borderRadius: 20,
@@ -61,6 +61,9 @@ const styles = StyleSheet.create({
   },
   navLink: {
     alignItems: 'center',
+  },
+  navLinkText: {
+    fontWeight: '600',
   },
   wrapper: {
     position: 'fixed',

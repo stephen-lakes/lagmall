@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
   badge: {
     backgroundColor: '#ff3250',
     position: 'absolute',
-    left: 13,
-    bottom: 10,
+    left: 12,
+    bottom: 8,
     width: 17,
     height: 17,
     borderRadius: 20,
