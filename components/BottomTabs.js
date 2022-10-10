@@ -8,22 +8,22 @@ const BottomTabs = () => {
       <View style={styles.container}>
         <TouchableOpacity style={styles.navLink}>
           <MaterialIcons name='storefront' size={24} color='black' />
-          <Text style={styles.navLinkText}>Shop</Text>
+          {/* <Text style={styles.navLinkText}>Shop</Text> */}
         </TouchableOpacity>
         <TouchableOpacity style={styles.navLink}>
           <View style={styles.badge}>
             <Text style={styles.badgeText}>0</Text>
           </View>
           <SimpleLineIcons name='bag' size={24} color='#333333' />
-          <Text style={styles.navLinkText}>Cart</Text>
+          {/* <Text style={styles.navLinkText}>Cart</Text> */}
       </TouchableOpacity>
       <TouchableOpacity style={styles.navLink}>
         <Feather name='heart' size={24} color='black' />
-        <Text style={styles.navLinkText}>WishList</Text>
+        {/* <Text style={styles.navLinkText}>WishList</Text> */}
       </TouchableOpacity>
       <TouchableOpacity style={styles.navLink}>
         <Feather name='user' size={24} color='black' />
-        <Text style={styles.navLinkText}>My account</Text>
+        {/* <Text style={styles.navLinkText}>My account</Text> */}
       </TouchableOpacity>
       </View>
     </View>
@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
   badge: {
     backgroundColor: '#ff3250',
     position: 'absolute',
-    left: 15,
-    bottom: 30,
+    left: 13,
+    bottom: 14,
     width: 17,
     height: 17,
     borderRadius: 20,
@@ -55,9 +55,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     height: 50,
-    paddingTop: 10,
+    padding: 10,
     borderTopWidth: 1,
-    borderTopColor: 'gray',
+    borderTopColor: '#f5f5f5',
   },
   navLink: {
     alignItems: 'center',
