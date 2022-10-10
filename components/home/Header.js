@@ -54,7 +54,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
     top: 0,
     width: '100%',
-    zIndex: 999
+    zIndex: 999,
+    borderBottomWidth: 2,
+    borderBottomColor: '#f5f5f5',
   },
   logo: {
     width: 150,
