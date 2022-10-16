@@ -52,7 +52,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     position: 'fixed',
     backgroundColor: '#ffffff',
-    top: 0,
     width: '100%',
     zIndex: 999,
     borderBottomWidth: 2,
@@ -60,8 +59,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 150,
-    height: 50,
+    height: 48,
     resizeMode: 'contain'
-  }
-  
+  },
 })
