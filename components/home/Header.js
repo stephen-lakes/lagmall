@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
     position: 'fixed',
-    top: 40,
+    top: 35,
     backgroundColor: '#ffffff',
     width: '100%',
     zIndex: 999,
