@@ -23,7 +23,6 @@ const HomeScreen = () => {
       </View>
       <BottomTabs />
     </SafeAreaView>
-    
   )
 }
 
