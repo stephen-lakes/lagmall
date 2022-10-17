@@ -13,15 +13,15 @@ import { BANNER } from '../data/Banner';
 const HomeScreen = () => {
   return (
     <SafeAreaView>
-        <View>
-            <Header />
-            <SlideShow />
-            <CustomRow />
-            <PlainTees />
-            <Banner path={BANNER[0]} />
-            <Banner path={BANNER[1]} />
-            <BottomTabs />
-        </View>
+      <Header />
+      <View style={{ marginTop: 50 }}>
+        <SlideShow />
+        <CustomRow />
+        <PlainTees />
+        <Banner path={BANNER[0]} />
+        <Banner path={BANNER[1]} />
+      </View>
+      <BottomTabs />
     </SafeAreaView>
     
   )
