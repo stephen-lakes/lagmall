@@ -2,6 +2,7 @@
   "expo": {
     "name": "lagmall",
     "slug": "lagmall",
+    "owner": "stephenoluyomi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
