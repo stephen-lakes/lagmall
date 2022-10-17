@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   },
   container: {
     paddingHorizontal: 10,
-    marginBottom: 10,
+    marginBottom: 20,
   },
   price: {
     color: 'red',
