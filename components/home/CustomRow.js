@@ -39,13 +39,16 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     justifyContent: 'space-around',
+    flexWrap: 'wrap',
     textAlign: 'center',
     marginVertical: 0,
-    marginTop: -40, 
+    // marginTop: -40,
+    marginHorizontal: 8,
   },
   column: {
     alignItems: 'center',
-    maxWidth: 60
+    maxWidth: 60,
+    marginRight: 'auto',
   },
   columnCircle: {
     width: 40,
