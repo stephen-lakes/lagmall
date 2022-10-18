@@ -1,11 +1,13 @@
-import { Image, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { Dimensions, Image, StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+
+const screenWidth = Dimensions.get('screen').width;
 
 const Banner = ({path}) => {
   return (
-    <View>
+    <View style={{ alignItems: 'center', marginBottom: 8 }}>
       <Image
-        style ={{ width: 320, height: 150 }}
+        style ={{ width: screenWidth * 0.95, height: 150 }}
         source={{ uri: path.imageUrl }}
       />
     </View>
